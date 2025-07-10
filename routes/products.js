@@ -10,7 +10,7 @@ const {
 } = require("../controllers/productController");
 
 // Public: list & view products
-router.get("/", listProducts);
+router.get("/", listProducts);  
 router.get("/:id", getProduct);
 
 // Admin: manage products
